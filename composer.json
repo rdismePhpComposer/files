@@ -1,0 +1,19 @@
+{
+    "name": "rdisme/files",
+    "description": "文件相关操作类",
+    "authors": [
+        {
+            "name": "rdisme",
+            "email": "rendao.sun@foxmail.com"
+        }
+    ],
+    "keywords": [
+        "files"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rdisme\\Files\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
