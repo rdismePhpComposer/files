@@ -59,8 +59,8 @@ class Dir
                 break;
             }
             // 回调函数处理
-            // 返回完整的文件地址
-            $callback($this->dirPath . '/' . $file);
+            // 返回文件名称
+            $callback($file);
         }
 
         // 关闭
